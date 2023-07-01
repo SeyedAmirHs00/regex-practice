@@ -1,6 +1,6 @@
 # Practice on regex
 
-In this repository we want to solve some tasks and by using ReGex 
+In this repository we want to solve some tasks by using ReGex 
 
 Source:  
 [learn by example](https://learnbyexample.github.io/py_regular_expressions/Exercise_solutions.html)
