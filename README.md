@@ -74,15 +74,18 @@ Source:
 
         >>> words = ['sequoia', 'attest', 'tattletale', 'asset']
 
+
 12. Convert the comma separated strings to corresponding dict objects as shown below.
 
         >>> row1 = 'name:rohan,maths:75,phy:89,'
         >>> row2 = 'name:rose,maths:88,phy:92,'
     
+
 13. Replace the yyyy-mm-dd format date to mm-dd-yyyy format
 
         >>> date1 = '2012-03-30'
         >>> date2 = '2020-04-03'
+
 
 14. Delete from ( to the next occurrence of ) unless they contain parentheses characters in between.
 
@@ -90,3 +93,39 @@ Source:
         >>> str2 = 'a/b(division) + c%d(#modulo) - (e+(j/k-3)*4)'
         >>> str3 = 'Hi there(greeting). Nice day(a(b)'
     
+
+15. Add [] around words starting with s and containing e and t in any order.
+
+        >>> ip = 'sequoia subtle exhibit asset sets2 tests si_te'
+
+
+16. Replace all whole words with X that start and end with the same word character (irrespective of case). Single character word should get replaced with X too, as it satisfies the stated condition.
+
+        >>> ip = 'oreo not a _a2_ Roar took 22'
+
+
+17. Convert the given markdown anchors to corresponding hyperlinks.
+
+        >>> anchor1 = '# <a name="regular-expressions"></a>Regular Expressions'
+        >>> anchor2 = '## <a name="subexpression-calls"></a>Subexpression calls'
+
+
+18. Count the number of whole words that have at least two occurrences of consecutive repeated alphabets. For example, words like stillness and Committee should be counted but not words like root or readable or rotational.
+
+        >>> ip = '''oppressed abandon accommodation bloodless
+        ... carelessness committed apparition innkeeper
+        ... occasionally afforded embarrassment foolishness
+        ... depended successfully succeeded
+        ... possession cleanliness suppress'''
+
+
+19. The given input string has sequences made up of words separated by : or . and such sequences will end when : or . is not followed by a word character. For all such sequences, display only the last word followed by - followed by the first word.*
+
+        >>> ip = 'wow:Good:2_two.five: hi-2 bye kite.777:water.'
+
+
+20. Convert the comma separated strings to corresponding dict objects as shown below. The keys are name, maths and phy for the three fields in the input strings.
+
+        >>> row1 = 'rohan,75,89'
+        >>> row2 = 'rose,88,92'
+
