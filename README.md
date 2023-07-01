@@ -1,11 +1,12 @@
 # Practice on regex
 
-In this repository we want to solve some tasks and use ReGex 
+In this repository we want to solve some tasks and by using ReGex 
 
 Source:  
 [learn by example](https://learnbyexample.github.io/py_regular_expressions/Exercise_solutions.html)
 
-## Best problems
+
+## Problems
 
 1. For the given strings, replace all occurrences of removed or reed or received or refused with X.
 
